@@ -13,6 +13,7 @@
 		D98FD52F281B2BFD00775F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98FD52D281B2BFD00775F03 /* Main.storyboard */; };
 		D98FD531281B2BFF00775F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98FD530281B2BFF00775F03 /* Assets.xcassets */; };
 		D98FD534281B2BFF00775F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98FD532281B2BFF00775F03 /* LaunchScreen.storyboard */; };
+		D98FD53C281B5FD500775F03 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98FD53B281B5FD500775F03 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D98FD530281B2BFF00775F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D98FD533281B2BFF00775F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D98FD535281B2BFF00775F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98FD53B281B5FD500775F03 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D98FD527281B2BFD00775F03 /* AppDelegate.swift */,
 				D98FD529281B2BFD00775F03 /* SceneDelegate.swift */,
 				D98FD52B281B2BFD00775F03 /* ViewController.swift */,
+				D98FD53B281B5FD500775F03 /* Game.swift */,
 				D98FD52D281B2BFD00775F03 /* Main.storyboard */,
 				D98FD530281B2BFF00775F03 /* Assets.xcassets */,
 				D98FD532281B2BFF00775F03 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				D98FD52C281B2BFD00775F03 /* ViewController.swift in Sources */,
 				D98FD528281B2BFD00775F03 /* AppDelegate.swift in Sources */,
 				D98FD52A281B2BFD00775F03 /* SceneDelegate.swift in Sources */,
+				D98FD53C281B5FD500775F03 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +307,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -330,7 +334,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
